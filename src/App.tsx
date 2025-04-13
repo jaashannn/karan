@@ -1,4 +1,3 @@
-import React from 'react';
 import { GraduationCap, BookOpen, Brain, Users, Layout as LayoutIcon, Heart, Briefcase, BookMarked } from 'lucide-react';
 import Layout from './components/Layout';
 import Section from './components/Section';
@@ -17,8 +16,8 @@ function App() {
             Early Childhood Education Major Assessment
           </p>
           <div className="text-gray-600">
-            <p className="mb-2">Jane Smith</p>
-            <p className="mb-2">Student ID: 12345678</p>
+            <p className="mb-2">Harneet Kaur</p>
+            <p className="mb-2">Student ID: IKO35898</p>
             <p>Bachelor of Education (Early Childhood)</p>
           </div>
         </div>
@@ -313,10 +312,19 @@ function App() {
       <Section id="references" title="References">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <div className="space-y-4 text-gray-700">
-            <p className="pl-8 -indent-8">
-              Arthur, L., Beecher, B., Death, E., Dockett, S., & Farmer, S. (2018). 
-              <em>Programming and Planning in Early Childhood Settings</em> (7th ed.). Cengage.
-            </p>
+          <p className="pl-8 -indent-8">
+  Arthur, L., Beecher, B., Death, E., Dockett, S., & Farmer, S. (2018).{" "}
+  <a
+    href="https://www.scirp.org/reference/referencespapers?referenceid=1566020"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 underline hover:text-blue-800"
+  >
+    <em>Programming and Planning in Early Childhood Settings</em> (7th ed.)
+  </a>
+  . Cengage.
+</p>
+
             <p className="pl-8 -indent-8">
               Australian Government Department of Education. (2022). <em>Belonging, Being and 
               Becoming: The Early Years Learning Framework for Australia</em> (V2.0).
