@@ -1,4 +1,4 @@
-import { GraduationCap, BookOpen, Brain, Users, Layout as LayoutIcon, Heart, Briefcase, BookMarked } from 'lucide-react';
+import { GraduationCap, BookOpen, Brain, Users, Layout as LayoutIcon, Heart, Briefcase } from 'lucide-react';
 import Layout from './components/Layout';
 import Section from './components/Section';
 
@@ -83,25 +83,25 @@ function App() {
       <Section id="genetics" title="Genetics & Growth">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <p className="text-gray-700 mb-6">
-            Genetics refers to the inherited traits passed from parents to children through DNA. 
-            It influences physical characteristics such as height, weight, and eye color, as well 
+            Genetics refers to the inherited traits passed from parents to children through DNA.
+            It influences physical characteristics such as height, weight, and eye color, as well
             as predispositions to certain health conditions and behavioral tendencies.
           </p>
-          
+
           <p className="text-gray-700 mb-6">
-            Growth refers to the measurable physical changes that occur over time. In early 
-            childhood, this includes brain development, height and weight gain, motor skills, 
+            Growth refers to the measurable physical changes that occur over time. In early
+            childhood, this includes brain development, height and weight gain, motor skills,
             and organ function.
           </p>
 
           <p className="text-gray-700 mb-6">
-            Understanding genetics and growth enables early childhood educators to distinguish 
+            Understanding genetics and growth enables early childhood educators to distinguish
             between typical development and developmental delays, allowing for timely interventions.
           </p>
 
           <div className="text-sm text-gray-600 italic">
-            Reference: Berk, L. E., & Meyers, A. B. (2020). <em>Infants and Children: Prenatal 
-            through Middle Childhood</em> (8th ed.). Pearson.
+            Reference: Berk, L. E., & Meyers, A. B. (2020). <em>Infants and Children: Prenatal
+              through Middle Childhood</em> (8th ed.). Pearson.
           </div>
         </div>
       </Section>
@@ -144,8 +144,8 @@ function App() {
           </ul>
 
           <div className="text-sm text-gray-600 italic">
-            Reference: McDevitt, T. M., & Ormrod, J. E. (2016). <em>Child Development and 
-            Education</em> (6th ed.). Pearson.
+            Reference: McDevitt, T. M., & Ormrod, J. E. (2016). <em>Child Development and
+              Education</em> (6th ed.). Pearson.
           </div>
         </div>
       </Section>
@@ -225,8 +225,8 @@ function App() {
           </div>
 
           <div className="text-sm text-gray-600 italic mt-6">
-            Reference: Sheridan, M., Sharma, A., & Cockerill, H. (2017). <em>From Birth to 
-            Five Years: Children's Developmental Progress</em> (5th ed.). Routledge.
+            Reference: Sheridan, M., Sharma, A., & Cockerill, H. (2017). <em>From Birth to
+              Five Years: Children's Developmental Progress</em> (5th ed.). Routledge.
           </div>
         </div>
       </Section>
@@ -235,7 +235,7 @@ function App() {
       <Section id="dispositions" title="Dispositions and EYLF Outcomes">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <p className="text-gray-700 mb-6">
-            <strong>Dispositions</strong> are enduring habits of mind and behavior, like 
+            <strong>Dispositions</strong> are enduring habits of mind and behavior, like
             curiosity, persistence, and confidence.
           </p>
 
@@ -266,8 +266,8 @@ function App() {
           </ul>
 
           <div className="text-sm text-gray-600 italic">
-            Reference: Australian Government Department of Education. (2022). <em>Belonging, 
-            Being and Becoming: The Early Years Learning Framework for Australia</em> (V2.0).
+            Reference: Australian Government Department of Education. (2022). <em>Belonging,
+              Being and Becoming: The Early Years Learning Framework for Australia</em> (V2.0).
           </div>
         </div>
       </Section>
@@ -297,12 +297,12 @@ function App() {
           </ul>
 
           <p className="text-gray-700 mb-6">
-            Understanding how children develop holistically ensures professional decisions 
+            Understanding how children develop holistically ensures professional decisions
             are informed, ethical, and aligned with best practices.
           </p>
 
           <div className="text-sm text-gray-600 italic">
-            Reference: Arthur, L., Beecher, B., Death, E., Dockett, S., & Farmer, S. (2018). 
+            Reference: Arthur, L., Beecher, B., Death, E., Dockett, S., & Farmer, S. (2018).
             <em>Programming and Planning in Early Childhood Settings</em> (7th ed.). Cengage.
           </div>
         </div>
@@ -312,35 +312,62 @@ function App() {
       <Section id="references" title="References">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <div className="space-y-4 text-gray-700">
-          <p className="pl-8 -indent-8">
-  Arthur, L., Beecher, B., Death, E., Dockett, S., & Farmer, S. (2018).{" "}
-  <a
-    href="https://www.scirp.org/reference/referencespapers?referenceid=1566020"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 underline hover:text-blue-800"
-  >
-    <em>Programming and Planning in Early Childhood Settings</em> (7th ed.)
-  </a>
-  . Cengage.
-</p>
+            <p className="pl-8 -indent-8">
+              Arthur, L., Beecher, B., Death, E., Dockett, S., & Farmer, S. (2018).{" "}
+              <a
+                href="https://www.scirp.org/reference/referencespapers?referenceid=1566020"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800"
+              >
+                <em>Programming and Planning in Early Childhood Settings</em> (7th ed.)
+              </a>
+              . Cengage.
+            </p>
 
             <p className="pl-8 -indent-8">
-              Australian Government Department of Education. (2022). <em>Belonging, Being and 
-              Becoming: The Early Years Learning Framework for Australia</em> (V2.0).
+              Australian Government Department of Education. (2022).{" "}
+              <a
+                href="https://www.education.gov.au/early-childhood"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800"
+              >
+                <em>Belonging, Being and Becoming: The Early Years Learning Framework for Australia</em> (V2.0)
+              </a>
+              .
+            </p>
+
+            <p className="pl-8 -indent-8">
+              Berk, L. E., & Meyers, A. B. (2020). <em>Infants and Children: Prenatal through
+                Middle Childhood</em> (8th ed.). Pearson.
             </p>
             <p className="pl-8 -indent-8">
-              Berk, L. E., & Meyers, A. B. (2020). <em>Infants and Children: Prenatal through 
-              Middle Childhood</em> (8th ed.). Pearson.
+              McDevitt, T. M., & Ormrod, J. E. (2016).{" "}
+              <a
+                href="https://www.scirp.org/reference/referencespapers?referenceid=2384627"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800"
+              >
+                <em>Child Development and Education</em> (6th ed.)
+              </a>
+              . Pearson.
             </p>
+
             <p className="pl-8 -indent-8">
-              McDevitt, T. M., & Ormrod, J. E. (2016). <em>Child Development and Education</em> 
-              (6th ed.). Pearson.
+              Sheridan, M., Sharma, A., & Cockerill, H. (2017).{" "}
+              <a
+                href="https://www.taylorfrancis.com/books/mono/10.4324/9780203494561/mary-sheridan-birth-five-years-helen-cockerill-ajay-sharma"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800"
+              >
+                <em>From Birth to Five Years: Children's Developmental Progress</em> (5th ed.)
+              </a>
+              . Routledge.
             </p>
-            <p className="pl-8 -indent-8">
-              Sheridan, M., Sharma, A., & Cockerill, H. (2017). <em>From Birth to Five Years: 
-              Children's Developmental Progress</em> (5th ed.). Routledge.
-            </p>
+
           </div>
         </div>
       </Section>
